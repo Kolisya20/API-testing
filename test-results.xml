@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.446" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-12-09T10:18:34" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Users Posts" timestamp="2022-12-09T10:18:34" tests="2" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\posts.js" time="1.439" failures="0">
+    <testcase name="Users Posts POST /posts" time="0.404" classname="POST /posts">
+    </testcase>
+    <testcase name="Users Posts GET /posts/:id" time="0.608" classname="GET /posts/:id">
+    </testcase>
+  </testsuite>
+  <testsuite name="Negative Tests" timestamp="2022-12-09T10:18:36" tests="1" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\posts.js" time="0.557" failures="0">
+    <testcase name="Negative Tests 422 Data validation failed" time="0.556" classname="422 Data validation failed">
+    </testcase>
+  </testsuite>
+  <testsuite name="Users" timestamp="2022-12-09T10:18:36" tests="0" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="POST" timestamp="2022-12-09T10:18:36" tests="1" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="0.360" failures="0">
+    <testcase name="Users POST /users create new" time="0.358" classname="/users create new">
+    </testcase>
+  </testsuite>
+  <testsuite name="GET" timestamp="2022-12-09T10:18:37" tests="3" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="1.213" failures="0">
+    <testcase name="Users GET GET /users" time="0.691" classname="GET /users">
+    </testcase>
+    <testcase name="Users GET GET /users/:id" time="0.283" classname="GET /users/:id">
+    </testcase>
+    <testcase name="Users GET GET /users with query parametrs" time="0.238" classname="GET /users with query parametrs">
+    </testcase>
+  </testsuite>
+  <testsuite name="PUT" timestamp="2022-12-09T10:18:38" tests="1" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="0.627" failures="0">
+    <testcase name="Users PUT PUT /users/:id change data" time="0.627" classname="PUT /users/:id change data">
+    </testcase>
+  </testsuite>
+  <testsuite name="DELETE" timestamp="2022-12-09T10:18:39" tests="1" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="0.313" failures="0">
+    <testcase name="Users DELETE DELETE /users/:id" time="0.312" classname="DELETE /users/:id">
+    </testcase>
+  </testsuite>
+  <testsuite name="NEGATIVE" timestamp="2022-12-09T10:18:39" tests="3" file="C:\Users\Maksym\Desktop\QATestLab\API_tests\test\users.js" time="0.935" failures="0">
+    <testcase name="Users NEGATIVE POST /users create empty" time="0.280" classname="POST /users create empty">
+    </testcase>
+    <testcase name="Users NEGATIVE DELETE /users/:id" time="0.328" classname="DELETE /users/:id">
+    </testcase>
+    <testcase name="Users NEGATIVE GET /users/:id try to get deleted user information" time="0.325" classname="GET /users/:id try to get deleted user information">
+    </testcase>
+  </testsuite>
+</testsuites>
